@@ -11,8 +11,8 @@ php --version
 )
 composer install
 
-# hh_client
+# hh_cliegnt
 vendor/bin/hacktest tests/
-if !(hhvm --version | grep -q -- -dev); then
-  vendor/bin/hhast-lint
-fi
+# if !(hhvm --version | grep -q -- -dev); then
+#   vendor/bin/hhast-lint
+# fi
